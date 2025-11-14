@@ -1,0 +1,17 @@
+# --- Core project utilities ---
+rich>=13.9.0            # beautiful terminal output
+typer>=0.12.0           # CLI framework if we build a CLI launcher
+pydantic>=2.7.0         # serialize/validate configs or saved AI state
+
+# --- Dev tools ---
+black>=24.0.0           # code formatter
+isort>=5.13.0           # import sorter
+flake8>=7.0.0           # linter
+mypy>=1.10.0            # type checking
+pytest>=8.2.0           # testing
+pytest-cov>=5.0.0       # coverage reports
+
+# --- Optional / future ---
+numpy>=1.26.0           # if later you want matrix-based strategies
+scikit-learn>=1.5.0     # if you want actual ML-based opponent modeling
+matplotlib>=3.9.0       # for visualizing patterns
